@@ -8,4 +8,8 @@ jobs:
     steps:
       - name: test ubuntu
       - run: date
-  
+  windows:
+    runs-on: windows-latest
+    steps:
+      - name: test windows
+      - run: date
