@@ -1,0 +1,22 @@
+name:test workflow
+
+on:push
+
+jobs:
+  ubuntu:
+    runs-on:ubuntu-latest
+    steps:
+    -name: display date
+    -run: date
+  runs-on:ubuntu-latest:
+  windows:
+    runs-on:windows-latest
+    steps:
+    -name: display date
+    -run: date
+  mac-os:
+    runs-on:macos-latest
+    needs:[ubuntu,windows]
+    steps: 
+    -name: display date
+    -run: date
