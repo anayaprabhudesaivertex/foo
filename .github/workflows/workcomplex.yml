@@ -6,10 +6,10 @@ jobs:
   ubuntu:
     runs-on: ubuntu-latest
     steps:
-      - name: test ubuntu
-      - run: date
+    - name: test ubuntu
+    - run: date
   windows:
     runs-on: windows-latest
     steps:
-      - name: test windows
-      - run: date
+    - name: test windows
+    - run: date
