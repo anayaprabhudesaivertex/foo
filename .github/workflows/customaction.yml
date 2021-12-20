@@ -9,4 +9,4 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v2
     - name: cal custom action
-      uses: anayaprabhudesai/customrepo@main
+      uses: anayaprabhudesaivertex/customrepo@main
